@@ -20,4 +20,8 @@ var studente;
 for (var i = 0; i < studenti.length; i++) {
   studente = studenti[i];
   console.log("Nome e Cognome studente: " + studente.nome + " " + studente.cognome);
+  document.getElementById("boxL").innerHTML +=
+  "<div class='elementoS'>" + studente.nome + "</div>";
+  document.getElementById("boxR").innerHTML +=
+  "<div class='elementoS'>" + studente.cognome + "</div>";
 }

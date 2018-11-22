@@ -3,5 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-
+}
+h2,h3 {
+  text-transform: uppercase;
+}
+header {
+  background-color: #ffcc3a;
+}
+main {
+  margin-top: 30px;
+}
+#boxL {
+  border-right: 1px solid grey;
+  height: 200px;
+}
+.elementoS {
+  margin-top: 20px;
 }
